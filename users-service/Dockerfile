@@ -12,7 +12,7 @@ WORKDIR /app
 RUN npm install
 
 # Expose API port to the outside
-#EXPOSE 80
+EXPOSE 8888
 
 # Launch application
 CMD ["node","index.js"]

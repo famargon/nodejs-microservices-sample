@@ -3,12 +3,12 @@
     "services":[
         {
             "name":"users",
-            "url":"http://localhost:8888",
+            "url":"http://users-service-app:8888",
             "mapping":"/users*"
         },
         {
             "name":"fruits",
-            "url":"http://localhost:9999",
+            "url":"http://fruits-service-app:9999",
             "mapping":"/fruits*"
         }
     ]
